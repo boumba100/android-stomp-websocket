@@ -12,7 +12,7 @@ Android Studio
 
 Click``` File → New → Import Module``` and select the wstompclient folder
 
-The steps above will add this to the settings.gradle file as like below   
+The steps above will add this to the settings.gradle 
 
 ```gradle
 include ':app', ':wstompclient'
