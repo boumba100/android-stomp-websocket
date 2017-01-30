@@ -66,7 +66,7 @@ stompClient = new StompClient("ws://<server hostname>:port/endpoint") { //exampl
     
     
     //  disconnect from stomp server and websocket
-stompClient.unSubscribe(this.roomBox.getText().toString());
+stompClient.unSubscribe("destincation");
 
 ```
 
@@ -86,7 +86,9 @@ Subscription
 
 ```java
 
-stompClient.subscribe(destination); // subscribe to topic
+stompClient.
+
+(destination); // subscribe to topic
 
 stompClient.unSubscribe(destination); // unsubscribes to topic
 
