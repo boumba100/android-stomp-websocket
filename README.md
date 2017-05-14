@@ -1,10 +1,10 @@
 # android-stomp-websocket
 
-This library was created to allow android devices to communicate to stomp servers via websocket.
+This library was created to allow android devices to communicate whith STOMP servers via websocket.
 
 #Getting started
 
-To get started download the project from this repository. This project contains the STOMP client library(wstompclient) and an example app using the library. Since the project is created with Android Studio, you can simply open it with the IDE and run it on an emulator or a physical device.
+To get started, download the project from this repository. This project contains the STOMP client library(wstompclient) and an example app using the library. Since the project is created with Android Studio, you can simply open it with the IDE and run it on an emulator or a physical device.
 
 If you want to include the wstompclient library into your own project do as the following: 
 
