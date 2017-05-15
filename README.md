@@ -10,14 +10,14 @@ If you want to include the wstompclient library into your own project do as the 
 
 Android Studio
 
-Click``` File → New → Import Module``` and select the wstompclient folder
+Click``` File → New → Import Module``` and select the wstompclient folder.
 
-The steps above will add this to the settings.gradle 
+The step above will add ```':wstompclient'```  to the settings.gradle file as shown below.
 
 ```gradle
 include ':app', ':wstompclient'
 ```
-To compile the library in your app simply add this line to the project's build.gradle file
+To compile the library in your application simply add this line to the project's build.gradle file.
 
 ```gradle
 dependencies {
